@@ -23,10 +23,10 @@ $config['base_url'] = 'https://yourpastebin.com/';
  * The database structure will be created automatically
  *
 */
-$config['db_hostname'] = '127.0.0.1';
-$config['db_database'] = 'stikked';
-$config['db_username'] = 'stikked';
-$config['db_password'] = 'stikked';
+$config['db_hostname'] = 'sql3.freemysqlhosting.net';
+$config['db_database'] = 'sql3161831';
+$config['db_username'] = 'sql3161831';
+$config['db_password'] = 'dJN3MZgxQa';
 
 // If you are using sqlite:
 // uncomment the configuration lines below.
@@ -209,10 +209,10 @@ $config['enable_captcha'] = true;
 $config['recaptcha_publickey'] = '';
 $config['recaptcha_privatekey'] = '';
 $config['disable_api'] = false;
-$config['disable_keep_forever'] = false;
+$config['disable_keep_forever'] = true;
 $config['blocked_words'] = '';
-$config['disable_shorturl'] = false;
-$config['disallow_search_engines'] = false;
+$config['disable_shorturl'] = true;
+$config['disallow_search_engines'] = true;
 
 //spamadmin: accessible via /spamadmin (only active when user + pass is set)
 $config['spamadmin_user'] = '';
@@ -250,7 +250,7 @@ $config['default_language'] = 'text';
  * NOTE: if changed only pastes from then on will be updated.
  *
 **/
-$config['unknown_poster'] = 'random';
+$config['unknown_poster'] = 'Anonymous';
 
 /**
  * Name for untitled pastes
